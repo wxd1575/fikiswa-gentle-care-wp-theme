@@ -1,0 +1,25 @@
+/* responsive.css - Media queries for Fikiswa Gentle Care */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .hero-headline {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 40vh;
+  }
+  .service-card, .testimonial-card {
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .hero-headline {
+    font-size: 1.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}

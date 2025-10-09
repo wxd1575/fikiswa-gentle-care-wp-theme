@@ -1,0 +1,75 @@
+/*
+Theme Name: Fikiswa Gentle Care
+Theme URI: https://example.com/
+Author: Your Name
+Author URI: https://example.com/
+Description: WordPress theme converted from Lovable export for Fikiswa Gentle Care. Responsive, SEO-friendly, accessible, and performance-optimized.
+Version: 1.0.0
+Tags: responsive, accessibility, blog, services, testimonials, custom-logo, custom-menu
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fikiswa-gentle-care
+*/
+
+:root {
+  --color-primary: #6C63FF;
+  --color-secondary: #FF6584;
+  --color-bg: #F9F9F9;
+  --color-text: #222;
+  --font-main: 'Inter', Arial, sans-serif;
+  --font-heading: 'Montserrat', Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Utility classes (from Tailwind, mapped to CSS) */
+.text-center { text-align: center; }
+.flex { display: flex; }
+.grid { display: grid; }
+.gap-4 { gap: 1rem; }
+.p-4 { padding: 1rem; }
+.m-4 { margin: 1rem; }
+.rounded { border-radius: 0.5rem; }
+.shadow { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+
+/* Add more classes as needed from your Tailwind config */
+
+/* Add additional styles from App.css, index.css, and component styles here */
+
+/* Testing checklist:
+- Theme header displays in WordPress admin
+- Colors and fonts use CSS variables
+- Responsive styles work on mobile/tablet
+- No hardcoded color values
+- All base styles applied
+*/

@@ -1,0 +1,38 @@
+/* components.css - Component-specific styles for Fikiswa Gentle Care */
+.hero-section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+.hero-headline {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+}
+.service-card, .testimonial-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1rem;
+}
+.service-image, .testimonial-image {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.btn {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: var(--color-secondary);
+}
