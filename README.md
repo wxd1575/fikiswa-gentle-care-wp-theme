@@ -20,6 +20,8 @@
 - Use shortcodes `[fikiswa_hero]`, `[fikiswa_services]`, `[fikiswa_testimonials]`, `[fikiswa_contact_form]` in pages/posts.
 - Add/edit services and testimonials in admin.
 - Customize colors/fonts in `style.css` and `assets/css/` files.
+- Assign Service Categories to Services in admin.
+- Add the Recent Testimonials widget in Appearance > Widgets.
 
 ## Testing Checklist
 - Theme activates without errors
@@ -103,4 +105,8 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+---
+
+For further customization, see comments in each PHP/CSS/JS file. For advanced content fields, install and configure ACF or CMB2 as needed.
 # fikiswa-gentle-care-wp-theme
